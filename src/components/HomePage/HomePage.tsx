@@ -7,7 +7,7 @@ const HomePage:React.FC  = () => {
         <div className={st.homeConteiner}>
             <div className={st.home}>
                 <aside className={st.home_getStarted}>
-                    <span className={st.home_first_title}>Learn</span>
+
                     <span className={st.home_second_title}>English</span>
                     <span className={st.home_three_title}>effectively</span>
                     <Link to="menuApp"><button className={st.home_bt_gt_st} type="button">Get started</button></Link>
