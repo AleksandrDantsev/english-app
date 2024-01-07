@@ -1,0 +1,19 @@
+.emptyFlashWindow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+.wrapper {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 23px;
+    h1 {
+        color: #414141;
+    }
+    a {
+        text-decoration: underline;
+        color: rgb(36, 83, 128);
+    }
+}

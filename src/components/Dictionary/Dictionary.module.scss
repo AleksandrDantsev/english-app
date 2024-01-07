@@ -1,4 +1,6 @@
 .wrapperDictionary {
+    display: flex;
+    flex-direction: column;
     width: 85%;
     margin: 40px auto;
 }
@@ -33,3 +35,24 @@
     box-shadow: 0 0 6px 0 #d1d1d1;
 }
 
+
+.emptyDictWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+.emptyTitle {
+    text-align: center;
+    h1, h2 {
+        font-size: 25px;
+        color: #3f3f3f;
+        letter-spacing: 1px;
+    }
+    a {
+        text-decoration: underline;
+        color: #18526d;
+        margin-left: 8px;
+    }
+}

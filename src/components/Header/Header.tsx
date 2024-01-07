@@ -42,14 +42,11 @@ const Header: React.FC = () => {
                 </div>
                 </Link>
                 <div className={st.header_buttons}>
-                    <ul className={st.links}>
+                    {/* <ul className={st.links}>
                         <li>
                             <Link to="/">Your statistic</Link>
                         </li>
-                        <li>
-                            <Link to="/">Your statistic</Link>
-                        </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </header>
